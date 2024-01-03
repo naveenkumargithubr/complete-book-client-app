@@ -1,0 +1,17 @@
+.about-container {
+  padding: 6rem 2rem 0 2rem;
+  background-color: bisque;
+  color: black;
+  height: 100vh;
+  font-weight: 500;
+}
+
+.about-container h1 {
+  padding-top: 3rem;
+  color: blue;
+  cursor: pointer;
+}
+
+.about-container h1:hover {
+  color: blueviolet;
+}

@@ -1,0 +1,82 @@
+.books {
+  font-size: x-large;
+  font-weight: 700;
+  color: blue;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.nav-links {
+  display: block;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+}
+
+.nav-links:hover {
+  color: rgb(46, 101, 179);
+  font-weight: 500;
+  text-decoration: underline;
+  transition: all 0.6s;
+}
+
+.unorder-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  display: hidden;
+}
+
+/* small devises  */
+.small-btn {
+  display: block;
+}
+
+.nav-header {
+  width: 100%; /* Equivalent to w-full in Tailwind CSS */
+  background-color: #8a9f9f; /* Equivalent to bg-transparent in Tailwind CSS */
+  position: fixed; /* Fixed positioning */
+  z-index: 100 !important;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.navbar-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+/* large devices */
+@media screen and (min-width: 769px) {
+  .small-btn {
+    display: none;
+  }
+
+  .nav-links {
+    color: #fff;
+  }
+  .navbar {
+    padding: 1.5rem;
+  }
+}
+
+/* small devices */
+@media screen and (max-width: 768px) {
+  .large-btn {
+    display: none;
+  }
+
+  .unorder-list {
+    display: none;
+  }
+
+  .navbar-items {
+    padding: 0 2rem 0 0;
+  }
+}

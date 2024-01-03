@@ -1,0 +1,102 @@
+.upload-conatiaer {
+  margin: 1rem 1.5rem;
+}
+
+.upload-conatiaer h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 1rem;
+}
+
+.label-head Label {
+  color: #000;
+  font-size: 1.2rem;
+}
+
+.catogory-style {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.submit-btn {
+  background-color: blue;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.submit-btn:hover {
+  background-color: #000;
+}
+
+/* manage books styling */
+
+.Manage-container {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.Manage-container h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 1rem;
+}
+
+/* dashboard styling */
+.dashboard-container {
+  background-color: rgb(245, 172, 76);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.dashboard-container h1 {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .upload-conatiaer,
+  .Manage-container {
+    top: 4rem;
+    position: absolute;
+  }
+
+  .Manage-container {
+    width: 100%;
+  }
+  .upload-conatiaer {
+    width: 90%;
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 819px) {
+  .upload-conatiaer {
+    width: 100%;
+    margin-left: 35%;
+  }
+  .Manage-container {
+    width: 100%;
+    margin-left: 35%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .upload-conatiaer {
+    width: 100%;
+  }
+  .Manage-container {
+    width: 100%;
+  }
+}

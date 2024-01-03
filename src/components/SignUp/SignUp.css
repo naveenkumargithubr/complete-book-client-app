@@ -1,0 +1,17 @@
+body {
+  min-height: 100vh;
+}
+
+.login-para {
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, Courier,
+    monospace, Geneva, Tahoma, sans-serif, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+}
+
+.login-link {
+  font-weight: 500;
+  font-size: 1rem;
+  color: blue;
+  text-decoration: underline;
+}

@@ -1,0 +1,118 @@
+.singleBook-container {
+  padding: 6rem 0 0 2rem;
+  background-color: burlywood;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.singleBook-desc {
+  padding-top: 2rem;
+  width: 50%;
+}
+
+.singleBook-desc h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif, "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif,
+    "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif, "Arial Narrow", Arial,
+    sans-serif;
+  display: block;
+  color: rgb(30, 31, 31);
+}
+
+.singleBook-desc span {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.singleBook-desc h3 {
+  font-size: 1.5rem;
+  color: aliceblue;
+  padding: 0.5rem 0 0.3rem 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.singleBook-desc p {
+  font-size: 1rem;
+  color: black;
+}
+
+.genres {
+  padding: 1rem 0 0 0;
+}
+
+.genres h4 {
+  color: rgb(30, 31, 31);
+  font-weight: 700;
+}
+
+.genres a {
+  color: rgb(81, 81, 253);
+  font-weight: 500;
+}
+
+.singleBook-container img {
+  height: 80vh;
+  padding: 2rem;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .singleBook-container {
+    flex-direction: column;
+  }
+
+  .singleBook-container img {
+    width: 100%;
+    height: 50vh;
+    padding: 0 2rem 0 2rem;
+    padding-left: 0;
+    border-radius: 0;
+  }
+
+  .singleBook-desc {
+    padding: 0.7rem 0 6rem 0;
+    width: 100%;
+    height: 50%;
+  }
+
+  .singleBook-desc h1 {
+    font-size: 28px;
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .singleBook-container {
+    flex-direction: row;
+    padding: 8rem 2rem 0 2rem;
+    height: 100vh;
+  }
+  .singleBook-container img {
+    width: 100%;
+    height: 50%;
+  }
+
+  .singleBook-desc {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .singleBook-container {
+    flex-direction: row;
+    padding: 6rem 2rem 0 2rem;
+    height: 100vh;
+  }
+  .singleBook-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .singleBook-desc {
+    width: 100%;
+  }
+}

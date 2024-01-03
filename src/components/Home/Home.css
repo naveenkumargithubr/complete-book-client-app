@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  background-color: #ccafaf;
+  padding-top: 6rem;
+}
+
+/* promo banner styling */
+.promo-banner-bg {
+  margin-top: 2rem;
+  background-color: lightblue;
+  padding: 2rem;
+}
+
+.promo-head {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif, "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: brown;
+}
+
+.get-promo {
+  background-color: blue;
+  padding: 0.8rem;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.get-promo:hover {
+  background-color: black;
+}
+
+.promo-flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* our customer styling */
+.swiper-bg {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.our-customer-container {
+  margin-top: 1.2rem;
+  padding: 0 0.5rem 2rem 0;
+}
+
+.our-customer-container h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+.cust-rating {
+  color: goldenrod;
+  display: flex;
+  gap: 0.6rem;
+}
+
+.review-shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: aliceblue;
+  padding: 1rem;
+}
+
+/* small screens */
+@media screen and (max-width: 768px) {
+  .home-container {
+    width: 100%;
+  }
+
+  .promo-head {
+    font-size: 1.5rem;
+  }
+
+  .promo-flex-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .promo-flex-container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .our-customer-container {
+    padding: 0 3rem;
+  }
+}

@@ -1,0 +1,10 @@
+.sidebar-bg {
+  background-color: white;
+  height: 100vh;
+}
+
+@media screen and (max-width: 766px) {
+  .sidebar-bg {
+    display: none;
+  }
+}
