@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
-import "./SideBar.css";
+
 import { AuthContext } from "../../Context/ReactContext";
 import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
-
+import "../SideBar/SideBar.css";
 import { Sidebar } from "flowbite-react";
 import { FaHouseChimneyUser } from "react-icons/fa6";
 import { BiBuoy } from "react-icons/bi";
