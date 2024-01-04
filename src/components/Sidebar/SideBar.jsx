@@ -4,8 +4,7 @@ import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 import { Sidebar } from "flowbite-react";
 import { FaHouseChimneyUser } from "react-icons/fa6";
 import { BiBuoy } from "react-icons/bi";
-import "../../components/SideBar/SideBar.css";
-
+import "./SideBar.css";
 import {
   HiArrowSmRight,
   HiChartPie,
