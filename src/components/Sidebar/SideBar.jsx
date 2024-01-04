@@ -1,11 +1,12 @@
 import React, { useContext, useState } from "react";
+import "./SideBar.css";
 import { AuthContext } from "../../Context/ReactContext";
 import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 
 import { Sidebar } from "flowbite-react";
 import { FaHouseChimneyUser } from "react-icons/fa6";
 import { BiBuoy } from "react-icons/bi";
-import "./SideBar.css";
+
 import {
   HiArrowSmRight,
   HiChartPie,
@@ -15,6 +16,7 @@ import {
   HiUser,
   HiViewBoards,
 } from "react-icons/hi";
+
 import userImage from "../../images/profile.jpg";
 
 const SideBar = () => {
